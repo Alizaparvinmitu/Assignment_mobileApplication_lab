@@ -22,4 +22,31 @@
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
 
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="By employing the flexibility of Gradle, you can achieve all
+                     of this without modifying your app's core source files. Android Studio build
+              files are named build.gradle. They are plain text files that use Groovy syntax to
+              configure the build with elements provided by the Android plugin for Gradle.
+              Each project has one top-level build file for the entire project and separate
+              module-level build files for each module. When you import an existing project,
+              Android Studio automatically generates the necessary build files" />
+            </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appbar_scrolling_view_behavior" />
 </LinearLayout>
+
+
